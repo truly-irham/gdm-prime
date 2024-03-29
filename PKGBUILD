@@ -5,7 +5,7 @@
 
 pkgbase=gdm-prime
 pkgname=(gdm-prime libgdm-prime)
-pkgver=45.0.1
+pkgver=46.0
 pkgrel=1
 pkgdesc="Display manager and login screen - patched with Prime support for Optimus laptops"
 url="https://wiki.gnome.org/Projects/GDM"
@@ -31,7 +31,7 @@ makedepends=(
   yelp-tools
 )
 checkdepends=(check)
-_commit=ef5620737de697d215f655722617e49f4a9a448e  # tags/45.0.1^0
+_commit=a5b591cd8d1db5c5d1ebe67d10ec3fe57b9bbded  # tags/46.0^0
 source=(
   "git+https://gitlab.gnome.org/GNOME/gdm.git#commit=$_commit"
   0001-Xsession-Don-t-start-ssh-agent-by-default.patch

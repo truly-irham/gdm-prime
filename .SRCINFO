@@ -1,6 +1,6 @@
 pkgbase = gdm-prime
 	pkgdesc = Display manager and login screen - patched with Prime support for Optimus laptops
-	pkgver = 45.0.1
+	pkgver = 46.0
 	pkgrel = 1
 	url = https://wiki.gnome.org/Projects/GDM
 	arch = x86_64
@@ -21,7 +21,7 @@ pkgbase = gdm-prime
 	depends = xorg-server
 	depends = xorg-xhost
 	depends = xorg-xrdb
-	source = git+https://gitlab.gnome.org/GNOME/gdm.git#commit=ef5620737de697d215f655722617e49f4a9a448e
+	source = git+https://gitlab.gnome.org/GNOME/gdm.git#commit=a5b591cd8d1db5c5d1ebe67d10ec3fe57b9bbded
 	source = 0001-Xsession-Don-t-start-ssh-agent-by-default.patch
 	source = 0002-nvidia-prime.patch
 	md5sums = SKIP
