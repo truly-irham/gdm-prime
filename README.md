@@ -1,7 +1,9 @@
 GDM - GNOME Display Manager
 ===========================
 
-Note: This repo is imported from https://aur.archlinux.org/packages/gdm-prime to apply optimus-manager patches to gdm with tag 46.0 (a5b591cd8d1db5c5d1ebe67d10ec3fe57b9bbded).
+Note: This repo is archived since the AUR package maintainer has already released the updated AUR package for gdm-prime (version 46.0). Any issue must be reported to the upstream optimus-manager repo instead: https://github.com/Askannz/optimus-manager 
+
+This repo is imported from https://aur.archlinux.org/packages/gdm-prime to apply optimus-manager patches to gdm with tag 46.0 (a5b591cd8d1db5c5d1ebe67d10ec3fe57b9bbded).
 
 http://wiki.gnome.org/Projects/GDM/
 
